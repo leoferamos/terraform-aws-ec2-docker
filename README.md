@@ -50,7 +50,6 @@ A infraestrutura criada inclui:
 - Configure o servidor EC2 via Terraform, especificando as regras de segurança:
     ```bash
     terraform plan
-    terraform apply
     ```
 
 - Adicione o script de inicialização (`user_data.sh`) para configurar a instância durante a inicialização.
@@ -61,12 +60,20 @@ A infraestrutura criada inclui:
     ```bash
     terraform apply
     ```
+    ![terraform-apply](images/terraform_apply.png)
+
 
 - Teste a API acessando o endereço IP público da instância EC2.
+  ![browser_teste](images/browser.png)
+
 
 - Configure o par de chaves (KeyPair) para acesso SSH via Terraform.
 
 - Teste o acesso remoto via SSH.
+  ![acesso-ssh](images/ssh.png)
+- Container em execução:
+  ![docker.ps](images/dockerps.png)
+ 
 
 ### 5. Limpeza
 
@@ -74,6 +81,14 @@ A infraestrutura criada inclui:
     ```bash
     terraform destroy
     ```
+    ![terraform-destroy](images/terraform_destroy.png)
+  - Confirmação de exclusão
+    ![terraform_destroy_yes](images/terraform_destroy_yes.png)
+  - Todos os recursos foram excluídos
+    ![terraform-destroyed](images/terraform_destroyed.png)
+ 
+
+
 
 ## Conclusão
 
