@@ -1,6 +1,8 @@
-# Terraform AWS EC2 Docker
+# Terraform AWS EC2 Docker 
 
-Este repositório contém um projeto de Infraestrutura como Código (IaC) utilizando Terraform para provisionar um servidor EC2 na AWS, configurar controle de acesso com Security Groups e realizar o deploy de uma aplicação Spring Boot simples dentro de um container Docker.
+Este repositório contém um projeto de Infraestrutura como Código (IaC) utilizando **Terraform** para provisionar um servidor EC2 na **AWS**, configurar controle de acesso com Security Groups e realizar o deploy de uma aplicação Spring Boot simples dentro de um container **Docker**.<p> 
+![aws-terraform-docker](images/aws-terraform-docker.png)
+
 
 ## Descrição
 
