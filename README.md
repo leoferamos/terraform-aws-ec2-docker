@@ -22,7 +22,7 @@ A infraestrutura criada inclui:
 - [Terraform](https://www.terraform.io/downloads.html) instalado
 - [AWS CLI](https://aws.amazon.com/cli/) configurado
 - Conta na AWS com permissões para criar recursos
-- Docker instalado
+- [Docker](https://docs.docker.com/get-docker/) instalado
 
 ## Passo a Passo
 
