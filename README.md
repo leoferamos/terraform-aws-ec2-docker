@@ -1,6 +1,6 @@
 # Terraform AWS EC2 Docker 
 ![Terraform Version](https://img.shields.io/badge/Terraform-v1.4.0-%236C32C4)
-![Docker Image Version](https://img.shields.io/docker/v/leonardoframos/public-api?label=Docker%20Image)
+[![Docker Image Version](https://img.shields.io/badge/Docker%20Image-v1.0.0-blue)](https://hub.docker.com/repository/docker/leonardoframos/public-api/general)
 ![Last Commit](https://img.shields.io/github/last-commit/leoferamos/terraform-aws-ec2-docker)
 ![Project Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 
