@@ -1,4 +1,8 @@
 # Terraform AWS EC2 Docker 
+![Terraform Version](https://img.shields.io/badge/Terraform-v1.4.0-blue)
+![Docker Image Version](https://img.shields.io/docker/v/leonardoframos/public-api?label=Docker%20Image)
+![Last Commit](https://img.shields.io/github/last-commit/leoferamos/terraform-aws-ec2-docker)
+![Project Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 
 Este repositório contém um projeto de Infraestrutura como Código (IaC) utilizando **Terraform** para provisionar um servidor EC2 na **AWS**, configurar controle de acesso com Security Groups e realizar o deploy de uma aplicação Spring Boot simples dentro de um container **Docker**.<p> 
 ![aws-terraform-docker](images/aws-terraform-docker.png)
@@ -8,10 +12,7 @@ Este repositório contém um projeto de Infraestrutura como Código (IaC) utiliz
 ## Descrição
 
 O objetivo deste projeto é demonstrar a criação e gerenciamento de infraestrutura na AWS usando Terraform. A aplicação principal é um simples projeto Spring Boot que retorna a hora atual, que foi containerizada usando Docker e publicada no Docker Hub. A infraestrutura é configurada para permitir acesso remoto via SSH e HTTP.<p>
-![Terraform Version](https://img.shields.io/badge/Terraform-v1.4.0-blue)
-![Docker Image Version](https://img.shields.io/docker/v/leonardoframos/public-api?label=Docker%20Image)
-![Last Commit](https://img.shields.io/github/last-commit/leoferamos/terraform-aws-ec2-docker)
-![Project Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
+
 
 
 
